@@ -1,11 +1,7 @@
-# data/real/README.md
-Place your real canteen CSV files here.
+This package is for utilities that are used during code generation
+and at runtime.  The reason for not placing these under the main plotly/
+package is that this avoids the complications of importing the module
+we're generating code into during code generation.
 
-Required columns (see DATA_DICTIONARY.md for full descriptions):
-date, day_of_week, meal_period, menu_item,
-is_special_event, attendance_estimate, pre_orders,
-meals_ordered, meals_prepared, meals_served,
-leftovers, discarded, is_synthetic
-
-Set is_synthetic = 0 for all real data rows.
-Import the file via the Data Management page.
+This module must be independent of (it must not import from) both
+plotly/ and codegen/

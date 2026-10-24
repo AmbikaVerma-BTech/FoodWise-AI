@@ -1,0 +1,8 @@
+WARNING: Cache entry deserialization failed, entry ignored
+WARNING: Cache entry deserialization failed, entry ignored
+WARNING: Cache entry deserialization failed, entry ignored
+WARNING: Cache entry deserialization failed, entry ignored
+WARNING: Cache entry deserialization failed, entry ignored
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: C:\Users\vambi\aiml project bob\foodwise-ai\venv\Scripts\python.exe -m pip install --upgrade pip

@@ -1,0 +1,45 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Database (do NOT commit the live database — export CSVs instead)
+foodwise.db
+
+# Saved models (regenerated on first run — do NOT commit large binary files)
+models/*.joblib
+# Keep model_results.json and the .gitkeep placeholder
+!models/model_results.json
+!models/.gitkeep
+
+# Keep data directory placeholders
+!data/real/.gitkeep
+!data/synthetic/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/

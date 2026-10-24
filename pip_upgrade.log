@@ -1,0 +1,5 @@
+Requirement already satisfied: pip in .\foodwise-ai\venv\lib\python3.14\site-packages (26.1.1)
+Collecting pip
+  Downloading pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
+   ---------------------------------------- 1.8/1.8 MB 761.4 kB/s  0:00:02

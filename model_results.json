@@ -1,0 +1,141 @@
+{
+  "metrics": [
+    {
+      "model": "Naive Baseline",
+      "MAE": 93.62,
+      "RMSE": 109.86,
+      "WAPE": 62.93
+    },
+    {
+      "model": "Linear Regression",
+      "MAE": 21.73,
+      "RMSE": 26.77,
+      "WAPE": 14.61
+    },
+    {
+      "model": "Random Forest",
+      "MAE": 19.38,
+      "RMSE": 28.32,
+      "WAPE": 13.02
+    },
+    {
+      "model": "Gradient Boosting",
+      "MAE": 18.64,
+      "RMSE": 28.03,
+      "WAPE": 12.53
+    }
+  ],
+  "best_model": "Gradient Boosting",
+  "train_size": 144,
+  "test_size": 36,
+  "feature_importance": [
+    [
+      "dow_sin",
+      0.024620413136895072
+    ],
+    [
+      "dow_cos",
+      0.008079361236406284
+    ],
+    [
+      "is_special_event",
+      0.0030072206368386765
+    ],
+    [
+      "attendance_estimate",
+      0.07378313218666009
+    ],
+    [
+      "pre_orders",
+      0.862711560502955
+    ],
+    [
+      "is_breakfast",
+      0.0016600399571162238
+    ],
+    [
+      "is_lunch",
+      0.02160511207888773
+    ],
+    [
+      "is_dinner",
+      0.0016389698024668697
+    ],
+    [
+      "item_Idli_and_Sambar",
+      0.00028386162098950477
+    ],
+    [
+      "item_Poha",
+      7.923966787675819e-05
+    ],
+    [
+      "item_Bread_and_Omelette",
+      9.810897149195668e-05
+    ],
+    [
+      "item_Upma",
+      0.00016385785189085088
+    ],
+    [
+      "item_Paratha",
+      2.1793847761884818e-05
+    ],
+    [
+      "item_Rice_and_Curry",
+      0.0005016276951958242
+    ],
+    [
+      "item_Dal_and_Roti",
+      0.0004168775522643163
+    ],
+    [
+      "item_Fried_Rice",
+      0.00030273695978648413
+    ],
+    [
+      "item_Noodles",
+      5.983076880311446e-05
+    ],
+    [
+      "item_Pasta",
+      0.00046128705595522304
+    ],
+    [
+      "item_Soup",
+      0.00011731968360870292
+    ],
+    [
+      "item_Sandwich",
+      0.0003006333031394442
+    ],
+    [
+      "item_Salad_Bowl",
+      8.701548301020274e-05
+    ]
+  ],
+  "residual_std": 27.384424484938364,
+  "feature_columns": [
+    "dow_sin",
+    "dow_cos",
+    "is_special_event",
+    "attendance_estimate",
+    "pre_orders",
+    "is_breakfast",
+    "is_lunch",
+    "is_dinner",
+    "item_Idli_and_Sambar",
+    "item_Poha",
+    "item_Bread_and_Omelette",
+    "item_Upma",
+    "item_Paratha",
+    "item_Rice_and_Curry",
+    "item_Dal_and_Roti",
+    "item_Fried_Rice",
+    "item_Noodles",
+    "item_Pasta",
+    "item_Soup",
+    "item_Sandwich",
+    "item_Salad_Bowl"
+  ]
+}
